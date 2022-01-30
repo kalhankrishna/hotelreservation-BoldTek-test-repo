@@ -175,8 +175,10 @@ int main()
         }
     }
 
-    cout << "Booking Confirmed!" << endl;
-    cout << "Thank you for using our services." << endl;
+    // cout << "Booking Confirmed!" << endl;
+    // cout << "Thank you for using our services." << endl;
+
+    cout << "Merge Conflict" << endl;
 
     return 0;
 }
