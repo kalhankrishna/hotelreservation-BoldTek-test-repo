@@ -60,6 +60,18 @@ int main()
     blueHills.rewardWeekday = 1000;
     blueHills.rewardWeekend = 400;
 
+    cout << "Please enter your information." << endl;
+
+    string name;
+    string emailid;
+    int age;
+    cout << "Name: " << endl;
+    getline(cin, name);
+    cout << "Age: " << endl;
+    cin >> age;
+    cout << "Email ID: " << endl;
+    cin >> emailid;
+
     string input;
     cout << "Enter Customer Type and reservation dates: " << endl;
     cout << "INPUT FORMAT: <customer_type>: <date1>, <date2>, <date3>" << endl;
