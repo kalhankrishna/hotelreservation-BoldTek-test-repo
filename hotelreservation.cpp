@@ -176,6 +176,7 @@ int main()
     }
 
     cout << "Booking Confirmed!" << endl;
+    cout << "Thank you for using our services." << endl;
 
     return 0;
 }
