@@ -175,8 +175,10 @@ int main()
         }
     }
 
+    cout << "Booking Confirmed!" << endl;
+
     return 0;
 }
 
-//If more data is added or data is changed, then modifying the classes and respective objects
-//are enough to get a result.
+// If more data is added or data is changed, then modifying the classes and respective objects
+// are enough to get a result.
